@@ -1,5 +1,9 @@
 # README
 
+## Before you begin
+
+Do NOT fork this project in GitHub, this will make your solution visible to other candidates and will be considered an automatic failure! Instead clone it to your local machine and push it up to your own personal github without directly linking to this repo. When you are done send the link to your repo to your point of contact.
+
 ## Setup
 
 For development environment setup, project commands, and usage instructions, please see [HELP.md](HELP.md).
