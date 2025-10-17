@@ -10,9 +10,9 @@ For development environment setup, project commands, and usage instructions, ple
 
 At Elixir we often have to work with third party apis and ingest data into our system, we write bespoke programs that we call `biz_rules` to perform this integration. This test is a scale model of the sort of work we do quite frequently and is quite reflective of what a typical day might look like, the system uses [django rest framework](https://www.django-rest-framework.org/) to create a viewable api in the browser.
 
-It is designed as a way to learn the mechanics of iTraX, if you are successful in your application you will be working on a system similar to this (but on a much larger scale).
+It is designed as a way to learn the mechanics of iTraX, if you are successful in your application, you will be working on a system similar to this (but on a much larger scale).
 
-We have selected some apis and you may choose whichever one you like and write the code in the matching `core/biz_rule.py` file (please see the `Services` section below for details).
+We have selected some api services and you may choose whichever one you like (please do choose ONLY one) and write the code in the `core/biz_rule.py` file (please see the `Services` section below for details).
 
 Your task can be broken down into three parts:
 
@@ -24,12 +24,13 @@ To be clear; you will not need to write your own models, or edit existing models
 
 ### The Services
 
-- https://pokemontcg.io/
-- https://scryfall.com/docs/api
-- https://developer.marvel.com/
-- https://rapidapi.com/omgvamp/api/hearthstone
+- [Pokemon](https://pokemontcg.io/)
+- [Magic: The Gathering](https://scryfall.com/docs/api)
+- [Marvel](https://developer.marvel.com/)
+- [Open Trivia](https://opentdb.com)
+- [Cocktail DB](https://www.thecocktaildb.com/)
 
 
 ### Running your biz_rule
 
-Running your integration (ingesting the data into the system) is as simple as `just bizrule`
+Running your integration (ingesting the data into the system) is as simple as `just bizrule` (assuming you are inside a devbox shell).
